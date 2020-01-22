@@ -11,6 +11,9 @@
 #' mean, and they are also scaled to have standard deviation of 1.
 #'
 #' @importFrom matrixStats colSds
+#' @importFrom Rcpp evalCpp
+#'
+#' @useDynLib fasterscale
 #' 
 #' @export
 #' 
