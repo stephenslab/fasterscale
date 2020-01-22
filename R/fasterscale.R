@@ -1,3 +1,4 @@
+#' @export
 scale_faster <- function (x) {
   a <- colMeans(x)
   b <- matrixStats::colSds(x)

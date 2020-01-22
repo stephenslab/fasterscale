@@ -1,7 +1,7 @@
 Encoding: UTF-8
 Type: Package
 Package: fasterscale
-Version: 0.1-0
+Version: 0.1-1
 Date: 2020-01-22
 Title: Methods for Efficiently Centering and Scaling Matrices
 Description: Provides a fast and memory-efficient method for
