@@ -12,3 +12,4 @@ Authors@R: person("Peter","Carbonetto",role=c("cre","aut"),
 License: MIT + file LICENSE
 Imports:
     matrixStats
+RoxygenNote: 7.0.2
