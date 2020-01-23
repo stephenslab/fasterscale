@@ -9,7 +9,7 @@ from GitHub, use [devtools][devtools]:
 
 ```R
 install.packages("devtools")
-devtools::install_github("pcarbo/fasterscale")
+devtools::install_github("pcarbo/fasterscale",build_vignettes = TRUE)
 ```
 
 This command should automatically install all required packages if
@@ -21,7 +21,7 @@ directory contains the fasterscale repository, run this code to
 install the package:
 
 ```R
-devtools::install_local("fasterscale")
+devtools::install_local("fasterscale",build_vignettes = TRUE)
 ```
 
 [devtools]: https://github.com/r-lib/devtools
